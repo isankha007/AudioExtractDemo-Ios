@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56546EC71D9299010022C7F2 /* SampleVideo_360x240_2mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 56546EC61D9299010022C7F2 /* SampleVideo_360x240_2mb.mp4 */; };
+		5686692D1D9678A900648A35 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5686692C1D9678A900648A35 /* AudioToolbox.framework */; };
+		56DBF7731CB8E59800873454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DBF7721CB8E59800873454 /* main.m */; };
+		56DBF7761CB8E59800873454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DBF7751CB8E59800873454 /* AppDelegate.m */; };
+		56DBF7791CB8E59800873454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DBF7781CB8E59800873454 /* ViewController.m */; };
+		56DBF77C1CB8E59800873454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DBF77A1CB8E59800873454 /* Main.storyboard */; };
+		56DBF77E1CB8E59800873454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DBF77D1CB8E59800873454 /* Assets.xcassets */; };
+		56DBF7811CB8E59800873454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DBF77F1CB8E59800873454 /* LaunchScreen.storyboard */; };
+		56DBF7891CB8E5D900873454 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF7881CB8E5D900873454 /* MediaPlayer.framework */; };
+		56DBF78B1CB8E5E100873454 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF78A1CB8E5E100873454 /* AVFoundation.framework */; };
+		56DBF78D1CB8E5E800873454 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF78C1CB8E5E800873454 /* CoreMedia.framework */; };
+		56DBF78F1CB8E5EF00873454 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF78E1CB8E5EF00873454 /* QuartzCore.framework */; };
+		56DBF7911CB8E5F500873454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF7901CB8E5F500873454 /* UIKit.framework */; };
+		56DBF7931CB8E5FD00873454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF7921CB8E5FD00873454 /* Foundation.framework */; };
+		56DBF7951CB8E60400873454 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DBF7941CB8E60400873454 /* CoreGraphics.framework */; };
+		56DBF7971CB8E67A00873454 /* thaiPhuketKaronBeach.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 56DBF7961CB8E67A00873454 /* thaiPhuketKaronBeach.MOV */; };
+		56F88D481D9670EB00D4F43A /* M1F1-Alaw-AFsp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56F88D471D9670EB00D4F43A /* M1F1-Alaw-AFsp.wav */; };
+		56F88D4A1D9672AE00D4F43A /* Allegro_from_Duet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56F88D491D9672AE00D4F43A /* Allegro_from_Duet.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56546EC61D9299010022C7F2 /* SampleVideo_360x240_2mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_360x240_2mb.mp4; sourceTree = "<group>"; };
+		5686692C1D9678A900648A35 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		568669311D9678C300648A35 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		56DBF76E1CB8E59800873454 /* AudioExtractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioExtractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DBF7721CB8E59800873454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56DBF7741CB8E59800873454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56DBF7751CB8E59800873454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56DBF7771CB8E59800873454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56DBF7781CB8E59800873454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56DBF77B1CB8E59800873454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56DBF77D1CB8E59800873454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56DBF7801CB8E59800873454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56DBF7821CB8E59800873454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DBF7881CB8E5D900873454 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		56DBF78A1CB8E5E100873454 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		56DBF78C1CB8E5E800873454 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		56DBF78E1CB8E5EF00873454 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56DBF7901CB8E5F500873454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56DBF7921CB8E5FD00873454 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56DBF7941CB8E60400873454 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56DBF7961CB8E67A00873454 /* thaiPhuketKaronBeach.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = thaiPhuketKaronBeach.MOV; sourceTree = "<group>"; };
+		56F88D471D9670EB00D4F43A /* M1F1-Alaw-AFsp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "M1F1-Alaw-AFsp.wav"; sourceTree = "<group>"; };
+		56F88D491D9672AE00D4F43A /* Allegro_from_Duet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Allegro_from_Duet.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DBF76B1CB8E59800873454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5686692D1D9678A900648A35 /* AudioToolbox.framework in Frameworks */,
+				56DBF7951CB8E60400873454 /* CoreGraphics.framework in Frameworks */,
+				56DBF7931CB8E5FD00873454 /* Foundation.framework in Frameworks */,
+				56DBF7911CB8E5F500873454 /* UIKit.framework in Frameworks */,
+				56DBF78F1CB8E5EF00873454 /* QuartzCore.framework in Frameworks */,
+				56DBF78D1CB8E5E800873454 /* CoreMedia.framework in Frameworks */,
+				56DBF78B1CB8E5E100873454 /* AVFoundation.framework in Frameworks */,
+				56DBF7891CB8E5D900873454 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DBF7651CB8E59800873454 = {
+			isa = PBXGroup;
+			children = (
+				568669311D9678C300648A35 /* AudioUnit.framework */,
+				5686692C1D9678A900648A35 /* AudioToolbox.framework */,
+				56DBF7941CB8E60400873454 /* CoreGraphics.framework */,
+				56DBF7921CB8E5FD00873454 /* Foundation.framework */,
+				56DBF7901CB8E5F500873454 /* UIKit.framework */,
+				56DBF78E1CB8E5EF00873454 /* QuartzCore.framework */,
+				56DBF78C1CB8E5E800873454 /* CoreMedia.framework */,
+				56DBF78A1CB8E5E100873454 /* AVFoundation.framework */,
+				56DBF7881CB8E5D900873454 /* MediaPlayer.framework */,
+				56DBF7701CB8E59800873454 /* AudioExtractDemo */,
+				56DBF76F1CB8E59800873454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DBF76F1CB8E59800873454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DBF76E1CB8E59800873454 /* AudioExtractDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DBF7701CB8E59800873454 /* AudioExtractDemo */ = {
+			isa = PBXGroup;
+			children = (
+				56DBF7741CB8E59800873454 /* AppDelegate.h */,
+				56DBF7751CB8E59800873454 /* AppDelegate.m */,
+				56DBF7771CB8E59800873454 /* ViewController.h */,
+				56DBF7781CB8E59800873454 /* ViewController.m */,
+				56F88D491D9672AE00D4F43A /* Allegro_from_Duet.mp3 */,
+				56F88D471D9670EB00D4F43A /* M1F1-Alaw-AFsp.wav */,
+				56DBF77A1CB8E59800873454 /* Main.storyboard */,
+				56DBF77D1CB8E59800873454 /* Assets.xcassets */,
+				56DBF77F1CB8E59800873454 /* LaunchScreen.storyboard */,
+				56DBF7821CB8E59800873454 /* Info.plist */,
+				56DBF7711CB8E59800873454 /* Supporting Files */,
+			);
+			name = AudioExtractDemo;
+			path = VideoTrimDemo;
+			sourceTree = "<group>";
+		};
+		56DBF7711CB8E59800873454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56546EC61D9299010022C7F2 /* SampleVideo_360x240_2mb.mp4 */,
+				56DBF7961CB8E67A00873454 /* thaiPhuketKaronBeach.MOV */,
+				56DBF7721CB8E59800873454 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DBF76D1CB8E59800873454 /* AudioExtractDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DBF7851CB8E59800873454 /* Build configuration list for PBXNativeTarget "AudioExtractDemo" */;
+			buildPhases = (
+				56DBF76A1CB8E59800873454 /* Sources */,
+				56DBF76B1CB8E59800873454 /* Frameworks */,
+				56DBF76C1CB8E59800873454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioExtractDemo;
+			productName = VideoTrimDemo;
+			productReference = 56DBF76E1CB8E59800873454 /* AudioExtractDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DBF7661CB8E59800873454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sankhadeep Chatterjee";
+				TargetAttributes = {
+					56DBF76D1CB8E59800873454 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7H3WJN682B;
+					};
+				};
+			};
+			buildConfigurationList = 56DBF7691CB8E59800873454 /* Build configuration list for PBXProject "AudioExtractDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DBF7651CB8E59800873454;
+			productRefGroup = 56DBF76F1CB8E59800873454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DBF76D1CB8E59800873454 /* AudioExtractDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DBF76C1CB8E59800873454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F88D481D9670EB00D4F43A /* M1F1-Alaw-AFsp.wav in Resources */,
+				56DBF7811CB8E59800873454 /* LaunchScreen.storyboard in Resources */,
+				56F88D4A1D9672AE00D4F43A /* Allegro_from_Duet.mp3 in Resources */,
+				56DBF7971CB8E67A00873454 /* thaiPhuketKaronBeach.MOV in Resources */,
+				56546EC71D9299010022C7F2 /* SampleVideo_360x240_2mb.mp4 in Resources */,
+				56DBF77E1CB8E59800873454 /* Assets.xcassets in Resources */,
+				56DBF77C1CB8E59800873454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DBF76A1CB8E59800873454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DBF7791CB8E59800873454 /* ViewController.m in Sources */,
+				56DBF7761CB8E59800873454 /* AppDelegate.m in Sources */,
+				56DBF7731CB8E59800873454 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56DBF77A1CB8E59800873454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DBF77B1CB8E59800873454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56DBF77F1CB8E59800873454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DBF7801CB8E59800873454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DBF7831CB8E59800873454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56DBF7841CB8E59800873454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DBF7861CB8E59800873454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoTrimDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis.VideoTrimDemo;
+				PRODUCT_NAME = AudioExtractDemo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		56DBF7871CB8E59800873454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoTrimDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isis.VideoTrimDemo;
+				PRODUCT_NAME = AudioExtractDemo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DBF7691CB8E59800873454 /* Build configuration list for PBXProject "AudioExtractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DBF7831CB8E59800873454 /* Debug */,
+				56DBF7841CB8E59800873454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DBF7851CB8E59800873454 /* Build configuration list for PBXNativeTarget "AudioExtractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DBF7861CB8E59800873454 /* Debug */,
+				56DBF7871CB8E59800873454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DBF7661CB8E59800873454 /* Project object */;
+}
